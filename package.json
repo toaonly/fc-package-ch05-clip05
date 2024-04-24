@@ -1,7 +1,7 @@
 {
   "name": "@toaonly/fc-package-ch05-clip05",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,12 @@
   "devDependencies": {
     "vite": "^5.2.0"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/main.es.js"
+    }
+  },
+  "main": "./dist/main.es.js",
   "files": [
     "dist/*.js"
   ],
