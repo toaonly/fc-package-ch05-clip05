@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/toaonly/fc-package-ch05-clip05.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
