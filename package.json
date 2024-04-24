@@ -1,0 +1,17 @@
+{
+  "name": "fc-package-ch05-clip05",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "files": [
+    "dist/*.js"
+  ]
+}

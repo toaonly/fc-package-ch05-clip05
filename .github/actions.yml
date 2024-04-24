@@ -1,0 +1,20 @@
+name: Publish npm Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+ publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js environment and install dependencies
+        run: |
+          pnpm install
+          pnpm build
+          npm publish
