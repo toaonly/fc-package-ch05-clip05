@@ -1,5 +1,5 @@
 {
-  "name": "fc-package-ch05-clip05",
+  "name": "@toaonly/fc-package-ch05-clip05",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -13,5 +13,9 @@
   },
   "files": [
     "dist/*.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toaonly/fc-package-ch05-clip05.git"
+  }
 }
